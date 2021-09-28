@@ -38,8 +38,8 @@ function triple(...numbers){
    return(newArr);
 }
 
-// countToFifty();
-// countFromOne(5);
-// threeAndFiveInFifty();
-// threeAndFive(10);
+countToFifty();
+countFromOne(5);
+threeAndFiveInFifty();
+threeAndFive(10);
 console.log(triple(1,2,3,4));
