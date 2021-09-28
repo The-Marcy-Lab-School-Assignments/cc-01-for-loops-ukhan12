@@ -29,15 +29,17 @@ function threeAndFive(num){
   } 
 }
 
-// //bonus
-// function triple(...arr){
-//   let newArr = [];
-//   arr.forEach(i =>{ newArr[i]=arr[i]*3});
-//   return newArr;
-// }
+//bonus
+function triple(...numbers){
+   let newArr = [];
+   for(let i=0; i<numbers.length; i++){
+       newArr.push(numbers[i] *= 3);
+   }
+   return(newArr);
+}
 
-countToFifty();
-countFromOne(5);
-threeAndFiveInFifty();
-threeAndFive(10);
-//console.log(triple(1,2,3,4));
+// countToFifty();
+// countFromOne(5);
+// threeAndFiveInFifty();
+// threeAndFive(10);
+console.log(triple(1,2,3,4));
